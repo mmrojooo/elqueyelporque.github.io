@@ -23,7 +23,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
-languages: ["en", "es"]
+languages: ["es", "en"]
 default_lang: "es"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: false
