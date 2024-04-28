@@ -24,10 +24,10 @@
         <li class="nav-item">
           {% if site.lang == "es" %}
             {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
-              <a href="{{ link1 }}" class="lang-switcher spanish" title="Website en español">{{site.data.i18n [version.lang] .icon}}{% t global.en %}</a>
+              <a href="{{ link1 }}" class="lang-switcher spanish" title="Website en español">🇬🇧 {% t global.en %}</a>
           {% elsif site.lang == "en" %}
             {% capture link2 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-              <a href="{{ link2 }}" class="lang-switcher english" title="English Website">{{site.data.i18n [version.lang] .icon}}{% t global.es %}</a>
+              <a href="{{ link2 }}" class="lang-switcher english" title="English Website">🇪🇸 {% t global.es %}</a>
           {% endif %}
         </li>
       </ul>

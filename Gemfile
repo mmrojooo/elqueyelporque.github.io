@@ -19,3 +19,4 @@ group :jekyll_plugins do
 end
 
 gem 'jekyll-multiple-languages-plugin'
+gem 'jemoji'
