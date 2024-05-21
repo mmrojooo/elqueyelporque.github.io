@@ -20,3 +20,4 @@ end
 
 gem 'jekyll-multiple-languages-plugin'
 gem 'jemoji'
+gem 'webrick'
