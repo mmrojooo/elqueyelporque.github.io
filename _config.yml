@@ -30,6 +30,7 @@ languages: ["es", "en"]
 default_lang: "es"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: false
+default_locale_in_subfolder: true
 
 sass:
     sourcemap: never
